@@ -3,8 +3,8 @@
 ## Description
 
 Module01 explores the aspect of accessibility for web development and the idea
-of refractoring existing code. The code is refractored so that it uses semantic
-HTML elements, makes sure that iamges have alternate attributes, improving the
+of refactoring existing code. The code is refactored so that it uses semantic
+HTML elements, make sure that images have alternate attributes, improving the
 title element, making sure that the HTML elements follow a logical structure,
 and that the heading elements are in sequential order.
 
@@ -12,7 +12,7 @@ and that the heading elements are in sequential order.
 
 1. Clone the repository
 2. Navigate to the project directory
-3. Right click the index.html file and open with your favorite browser
+3. Right-click the index.html file and open it with your favorite browser
 
 ## Usage
 
