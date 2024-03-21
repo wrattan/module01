@@ -1,3 +1,16 @@
+/*Global variables */
+:root {
+  --teal: #2a607c;
+  --white: #ffffff;
+  --light-grey: #d9dcd6;
+  --light-blue: #0072bb;
+  --blue: #2589bd;
+  --font-family-primary: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --font-family-secondary: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+/* Global styles */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,15 +18,16 @@
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: var(--light-grey);
 }
+
+/*Start of header styles*/
 
 header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
+  font-family: var(--font-family-primary);
+  background-color: var(--teal);
+  color: var(--white);
 }
 
 header h1 {
@@ -22,14 +36,14 @@ header h1 {
 }
 
 header h1 .seo {
-  color: #d9dcd6;
+  color: var(--light-grey);
 }
 
 header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: var(--font-family-secondary);
   font-size: 20px;
 }
 
@@ -42,8 +56,10 @@ header nav ul li {
   margin-left: 25px;
 }
 
+/*End of header styles*/
+
 a {
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -76,13 +92,15 @@ main {
   margin-left: 20px;
 }
 
+/*Service styles */
+
 .services {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  font-family: var(--font-family-secondary);
+  background-color: var(--light-blue);
+  color: var(--white);
 }
 
 .services img {
@@ -94,6 +112,8 @@ main {
   font-size: 36px;
 }
 
+/*Benifits styles */
+
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -101,13 +121,13 @@ main {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
+  font-family: var(--font-family-secondary);
+  background-color: var(--blue);
 }
 
 .benefit {
   margin-bottom: 32px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .benefit h3 {
@@ -121,14 +141,15 @@ main {
   max-width: 150px;
 }
 
+/*Footer styles*/
+
 footer {
   padding: 30px;
   clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: var(--font-family-primary);
   text-align: center;
 }
 
-footer h4 {
+footer h2 {
   font-size: 20px;
 }
